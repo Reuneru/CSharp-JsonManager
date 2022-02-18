@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "iJ0SsSRsfsWyC+1+4zJBmp+wkK+UxkH37a9lzU2nFRegMDdIQhhQPemgDdQOWf80iMmrZMEj/IET1mu4IFNw0g==",
+  "success": true,
+  "projectFilePath": "/home/reuneru/Desktop/VS Code/c sharp/c sharp.csproj",
+  "expectedPackageFiles": [
+    "/home/reuneru/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/reuneru/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/3.1.22/microsoft.netcore.app.runtime.linux-x64.3.1.22.nupkg.sha512",
+    "/home/reuneru/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/3.1.22/microsoft.aspnetcore.app.runtime.linux-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,61 @@
+﻿using System;
+
+namespace c_sharp //nombre del namespace, cambiable
+{
+    class Program //clase, nombre cambiable
+    {
+
+
+        static void ReadlineV4()
+        {
+            //User Input V4//
+            Console.Write("¿Es C# entretenido? (Y/N): ");
+            string Respuesta = Console.ReadLine();
+            if (Respuesta == "Y")
+            {
+                Console.WriteLine("Muy bien.");
+            } else if (Respuesta == "N")
+            {
+                Console.WriteLine("Pues jodete.");
+            } else 
+            {
+                Console.WriteLine("No entendi.");
+                ReadlineV4();
+            }
+        }
+        static void Main(string[] args) //funcion principal
+        {
+            // Test //
+            /*string nombre = "Perez";
+            int numero = 15;
+            int numero2 = 10;
+            Console.WriteLine(nombre);
+            Console.WriteLine(numero);
+            Console.WriteLine(numero + numero2);*/
+
+            //User Input//
+            /*Console.Write("Nombre : ");
+
+            string Nombre = Console.ReadLine();
+
+            Console.WriteLine("Su nombre es " + Nombre);*/
+
+
+            //User Input V2//
+            /*Console.Write("Buscar el mayor valor entre : ");
+            int Numero1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Y : ");
+            int Numero2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(Math.Max(Numero1, Numero2));*/
+
+            //User Input V3//
+            /*Console.Write("La frase : ");
+            string frase = Console.ReadLine();
+            Console.WriteLine("Tiene " + frase.Length + " letras");*/
+            ReadlineV4();
+
+        }
+    }
+}
